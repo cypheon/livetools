@@ -138,7 +138,7 @@ fn print_usage(program: &String, opts: &Options) {
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let program = &args[0];//.clone();
+    let program = &args[0];
 
     let mut cfg = WordCountConfig::new();
     let mut noflags = true;
