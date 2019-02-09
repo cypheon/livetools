@@ -94,6 +94,5 @@ fn live_wordcount() {
 }
 
 fn main() {
-    //live_date()
     live_wordcount()
 }
