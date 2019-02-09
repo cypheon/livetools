@@ -89,8 +89,8 @@ fn live_wordcount() {
         }
     }
     output_wordcount(&wc);
-    io::stdout().write(b"\n");
-    io::stdout().flush();
+    io::stdout().write(b"\n").expect("Output Error");
+    io::stdout().flush().expect("Output Error");
 }
 
 fn main() {
