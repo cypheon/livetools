@@ -1,0 +1,8 @@
+[package]
+name = "livetools"
+version = "0.1.0"
+authors = ["Johann Rudloff <johann@sinyax.net>"]
+edition = "2018"
+
+[dependencies]
+chrono = "0.4"
