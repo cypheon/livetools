@@ -6,7 +6,9 @@ rust:
 os:
   - linux
   - osx
+  - windows
 matrix:
   allow_failures:
     - rust: nightly
+    - os: windows
   fast_finish: true
