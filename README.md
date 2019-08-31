@@ -1,5 +1,7 @@
 # livetools: Live-updating Command Line Tools
 
+[![Build Status](https://travis-ci.org/cypheon/livetools.svg?branch=master)](https://travis-ci.org/cypheon/livetools)
+
 This repo provides live-updating versions of the `wc` and `date` binaries,
 designed for interactive use, called `lwc` and `ldate`.
 
